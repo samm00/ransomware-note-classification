@@ -2,7 +2,6 @@ from datasets import load_dataset
 import evaluate
 import numpy as np
 from transformers import AutoTokenizer, DataCollatorWithPadding, AutoModelForSequenceClassification, TrainingArguments, Trainer
-import torch
 
 data = load_dataset("csv", data_files={'train': "train.csv", 'eval': "eval.csv", 'test': "test.csv"})
 
@@ -15,10 +14,6 @@ tokenized_data = data.map(preprocess_function, batched=True)
 
 columns_to_return = ['input_ids', 'label', 'attention_mask']
 tokenized_data.set_format(type='torch', columns=columns_to_return)
-
-#print(tokenized_data['train']['input_ids'])
-
-#t = torch.Tensor(tokenized_data)
 
 data_collator = DataCollatorWithPadding(tokenizer)
 
@@ -79,21 +74,3 @@ print('--------------------')
 incorrect = [name for pred, label, name in zip(preds[0], preds[1], data['test']['id']) if (pred[0] < pred[1] and label == 0) or (pred[0] > pred[1] and label == 1)]
 print(incorrect)
 print('----------------------------------------')
-
-'''
-test_args = TrainingArguments(
-    output_dir = 'ransom',
-    do_train = False,
-    do_predict = True,
-    per_device_eval_batch_size = 16,   
-    dataloader_drop_last = False    
-)
-
-trainer = Trainer(
-    model = model, 
-    args = test_args, 
-    compute_metrics = compute_metrics
-)
-
-test_results = trainer.predict(tokenized_data['test'])
-'''

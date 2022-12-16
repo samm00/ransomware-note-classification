@@ -29,7 +29,6 @@ for path, subdirs, files in os.walk('data/ransom_notes/'):
                     for code in [r'\\lang1049', r'\\lang1033', r'\\par', r'\\f0 ', r'\\f0', r'\\f1 ', r'\\f1', r'\\fs28', r'\\fs32', r'\\b0', r'\\b', r'\\fs24', r'\\cf1', r'\\cf00', r'd\\ri-74', r'd?\\sa200\\sl240\\slmult1', r'\\tx8378 ', r'.*\n.*\n.*\\tx8804']:
                         text = re.sub(code, '', text)
                     text = re.sub(r'\\\'ee', 'o', text)
-                    #text = re.sub(r'\\\'ce', 'o', text)
                     text = re.sub(r'\\\'e0', 'a', text)
                     text = re.sub(r'\\\'c0', 'a', text)
                     text = re.sub(r'\\\'e5', 'e', text)
@@ -50,8 +49,6 @@ for path, subdirs, files in os.walk('data/ransom_notes/'):
                 text = re.sub(r'[^a-zA-Z\d\s@\.,!\?:;\']', '', text)
                 text = re.sub(r'\s\s+', ' ', text)
                 text = re.sub(r'[^\s\.!:,\\/@;]{20,}', '', text)
-                #table = str.maketrans(dict.fromkeys(string.punctuation)) 
-                #text = text.translate(table)
                 data[key[16:]] = text.strip()
         except:
             with open(key, 'r', encoding = 'latin-1') as f:
