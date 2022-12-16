@@ -68,5 +68,5 @@ for path, subdirs, files in os.walk('data/ransom_notes/'):
                 text = re.sub(r'[^\s\.!:,\\/@;]{40,}', '', text)
                 data[key[16:]] = text.strip()
 
-with open('out.json', 'w') as f:
+with open('malicious_data.json', 'w') as f:
     json.dump(data, f, ensure_ascii = False)
