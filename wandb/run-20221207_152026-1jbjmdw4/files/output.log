@@ -1,0 +1,45 @@
+
+
+
+
+
+
+
+
+
+
+  2%|█                                             | 9/400 [01:32<1:11:17, 10.94s/it]
+
+
+
+
+
+
+
+
+
+
+  5%|██▏                                            | 19/400 [03:02<55:27,  8.73s/it]
+
+
+
+
+
+
+
+
+  7%|███▏                                           | 27/400 [04:07<49:28,  7.96s/it]Traceback (most recent call last):
+  File "/home/sam/Documents/hacs479/train_model.py", line 69, in <module>
+  File "/home/sam/.local/lib/python3.10/site-packages/transformers/trainer.py", line 1317, in train
+    return inner_training_loop(
+  File "/home/sam/.local/lib/python3.10/site-packages/transformers/trainer.py", line 1554, in _inner_training_loop
+    tr_loss_step = self.training_step(model, inputs)
+  File "/home/sam/.local/lib/python3.10/site-packages/transformers/trainer.py", line 2201, in training_step
+    loss.backward()
+  File "/home/sam/.local/lib/python3.10/site-packages/torch/_tensor.py", line 363, in backward
+    torch.autograd.backward(self, gradient, retain_graph, create_graph, inputs=inputs)
+  File "/home/sam/.local/lib/python3.10/site-packages/torch/autograd/__init__.py", line 173, in backward
+    Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+  File "/home/sam/.local/lib/python3.10/site-packages/wandb/wandb_torch.py", line 264, in <lambda>
+    handle = var.register_hook(lambda grad: _callback(grad, log_track))
+KeyboardInterrupt

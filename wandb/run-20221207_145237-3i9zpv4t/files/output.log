@@ -1,0 +1,143 @@
+
+
+
+
+
+
+
+
+
+
+ 11%|███████▉                                                              | 9/80 [01:37<13:34, 11.48s/it]
+
+
+
+
+
+
+
+
+
+
+ 24%|████████████████▍                                                    | 19/80 [03:23<10:33, 10.39s/it]
+
+
+
+
+
+
+
+
+
+
+ 36%|█████████████████████████                                            | 29/80 [05:05<09:40, 11.39s/it]
+
+
+
+
+
+
+
+
+
+
+ 49%|█████████████████████████████████▋                                   | 39/80 [06:47<07:24, 10.85s/it]
+ 50%|██████████████████████████████████▌                                  | 40/80 [06:48<05:14,  7.86s/it]***** Running Evaluation *****
+  Num examples = 208
+  Batch size = 16
+
+
+
+
+
+
+
+
+
+
+
+ 92%|███████████████████████████████████████████████████████████████▋     | 12/13 [00:31<00:03,  3.08s/it]
+Trainer is attempting to log a value of "{'f1': 0.9693251533742331}" of type <class 'dict'> for key "eval/f1" as a scalar. This invocation of Tensorboard's writer.add_scalar() is incorrect so we dropped this attribute.
+Trainer is attempting to log a value of "{'precision': 0.9518072289156626}" of type <class 'dict'> for key "eval/precision" as a scalar. This invocation of Tensorboard's writer.add_scalar() is incorrect so we dropped this attribute.
+Trainer is attempting to log a value of "{'recall': 0.9875}" of type <class 'dict'> for key "eval/recall" as a scalar. This invocation of Tensorboard's writer.add_scalar() is incorrect so we dropped this attribute.
+ 50%|██████████████████████████████████▌                                  | 40/80 [07:25<05:14,  7.86s/it]Saving model checkpoint to ransom/checkpoint-40
+Configuration saved in ransom/checkpoint-40/config.json
+Model weights saved in ransom/checkpoint-40/pytorch_model.bin
+tokenizer config file saved in ransom/checkpoint-40/tokenizer_config.json
+Special tokens file saved in ransom/checkpoint-40/special_tokens_map.json
+
+
+
+
+
+
+
+
+ 61%|██████████████████████████████████████████▎                          | 49/80 [09:09<05:58, 11.57s/it]
+
+
+
+
+
+
+
+
+
+
+ 74%|██████████████████████████████████████████████████▉                  | 59/80 [10:55<03:55, 11.23s/it]
+
+
+
+
+
+
+
+
+
+
+ 86%|███████████████████████████████████████████████████████████▌         | 69/80 [12:53<02:15, 12.30s/it]
+
+
+
+
+
+
+
+
+
+ 98%|███████████████████████████████████████████████████████████████████▎ | 78/80 [14:28<00:20, 10.13s/it]
+100%|█████████████████████████████████████████████████████████████████████| 80/80 [14:37<00:00,  6.95s/it]***** Running Evaluation *****
+  Num examples = 208
+  Batch size = 16
+
+
+
+
+
+
+
+
+
+
+
+ 92%|███████████████████████████████████████████████████████████████▋     | 12/13 [00:31<00:02,  2.91s/it]
+Trainer is attempting to log a value of "{'f1': 0.975609756097561}" of type <class 'dict'> for key "eval/f1" as a scalar. This invocation of Tensorboard's writer.add_scalar() is incorrect so we dropped this attribute.
+Trainer is attempting to log a value of "{'precision': 0.9523809523809523}" of type <class 'dict'> for key "eval/precision" as a scalar. This invocation of Tensorboard's writer.add_scalar() is incorrect so we dropped this attribute.
+Trainer is attempting to log a value of "{'recall': 1.0}" of type <class 'dict'> for key "eval/recall" as a scalar. This invocation of Tensorboard's writer.add_scalar() is incorrect so we dropped this attribute.
+100%|█████████████████████████████████████████████████████████████████████| 80/80 [15:14<00:00,  6.95s/it]Saving model checkpoint to ransom/checkpoint-80
+Configuration saved in ransom/checkpoint-80/config.json
+Model weights saved in ransom/checkpoint-80/pytorch_model.bin
+tokenizer config file saved in ransom/checkpoint-80/tokenizer_config.json
+Special tokens file saved in ransom/checkpoint-80/special_tokens_map.json
+Traceback (most recent call last):
+  File "/home/sam/Documents/hacs479/train_model.py", line 69, in <module>
+    trainer.train()
+  File "/home/sam/.local/lib/python3.10/site-packages/transformers/trainer.py", line 1317, in train
+    return inner_training_loop(
+  File "/home/sam/.local/lib/python3.10/site-packages/transformers/trainer.py", line 1644, in _inner_training_loop
+    self._maybe_log_save_evaluate(tr_loss, model, trial, epoch, ignore_keys_for_eval)
+  File "/home/sam/.local/lib/python3.10/site-packages/transformers/trainer.py", line 1800, in _maybe_log_save_evaluate
+    self._save_checkpoint(model, trial, metrics=metrics)
+  File "/home/sam/.local/lib/python3.10/site-packages/transformers/trainer.py", line 1920, in _save_checkpoint
+    or operator(metric_value, self.state.best_metric)
+TypeError: '>' not supported between instances of 'dict' and 'dict'

@@ -1,0 +1,18 @@
+{
+    "os": "Linux-5.19.17-2-MANJARO-x86_64-with-glibc2.36",
+    "python": "3.10.8",
+    "heartbeatAt": "2022-12-14T02:26:22.124517",
+    "startedAt": "2022-12-14T02:26:20.630795",
+    "docker": null,
+    "gpu": "NVIDIA GeForce RTX 3050 Laptop GPU",
+    "gpu_count": 1,
+    "cpu_count": 12,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "/home/sam/Documents/hacs479/train_model.py",
+    "codePath": "train_model.py",
+    "host": "ktabxana",
+    "username": "sam",
+    "executable": "/usr/bin/python"
+}

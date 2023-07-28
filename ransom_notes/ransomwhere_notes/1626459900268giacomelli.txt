@@ -1,0 +1,10 @@
+To recover your lost files and avoid leaking it send ©.825 Bitcoin (BTC) to
+1GXFnPLgdyPUCbKIZQKYs7RvvFpZgGTk1G
+
+Buckets that we have: giacomelli-backup, giacomelli-backup-production,
+giacomelli-intranet, giacomelli-sistema-development,
+giacomelli-sistema-production, s3.giacomellivendas.com.br.
+
+Your files are downloaded and backed up on our servers. If we dont receive your
+payment in the next 9 Days, we will sell your files to the highest bidder or use
+them otherwise.

@@ -1,0 +1,157 @@
+
+
+  4%|█▊                                                | 7/195 [00:03<01:20,  2.33it/s]
+
+
+  9%|████▎                                            | 17/195 [00:07<01:12,  2.44it/s]
+
+
+ 13%|██████▌                                          | 26/195 [00:11<01:14,  2.26it/s]
+
+
+ 20%|█████████▊                                       | 39/195 [00:16<01:04,  2.40it/s]***** Running Evaluation *****
+  Num examples = 208
+  Batch size = 4
+Configuration saved in ransom/checkpoint-39/config.json
+Model weights saved in ransom/checkpoint-39/pytorch_model.bin
+tokenizer config file saved in ransom/checkpoint-39/tokenizer_config.json
+Special tokens file saved in ransom/checkpoint-39/special_tokens_map.json
+ 21%|██████████                                       | 40/195 [00:19<02:52,  1.11s/it]
+{'eval_loss': 0.09024836122989655, 'eval_accuracy': 0.9711538461538461, 'eval_f1': 0.9625000000000001, 'eval_precision': 0.9625, 'eval_recall': 0.9625, 'eval_runtime': 1.5846, 'eval_samples_per_second': 131.26, 'eval_steps_per_second': 32.815, 'epoch': 0.99}
+
+ 23%|███████████▎                                     | 45/195 [00:21<01:19,  1.88it/s]
+
+
+ 28%|█████████████▊                                   | 55/195 [00:25<00:56,  2.47it/s]
+
+
+
+ 35%|█████████████████▎                               | 69/195 [00:31<00:52,  2.38it/s]
+
+ 40%|███████████████████▌                             | 78/195 [00:34<00:46,  2.50it/s]***** Running Evaluation *****
+  Num examples = 208
+  Batch size = 4
+ 27%|█████████████▍                                    | 14/52 [00:00<00:01, 33.60it/s]
+Configuration saved in ransom/checkpoint-78/config.json
+Model weights saved in ransom/checkpoint-78/pytorch_model.bin
+tokenizer config file saved in ransom/checkpoint-78/tokenizer_config.json
+Special tokens file saved in ransom/checkpoint-78/special_tokens_map.json
+{'loss': 0.0666, 'learning_rate': 1.1794871794871796e-05, 'epoch': 2.05}
+
+ 45%|██████████████████████                           | 88/195 [00:41<00:44,  2.39it/s]
+
+
+ 50%|████████████████████████▋                        | 98/195 [00:45<00:40,  2.38it/s]
+
+
+ 55%|██████████████████████████▎                     | 107/195 [00:49<00:34,  2.53it/s]
+
+ 60%|████████████████████████████▊                   | 117/195 [00:53<00:32,  2.38it/s]***** Running Evaluation *****
+  Num examples = 208
+  Batch size = 4
+  0%|                                                           | 0/52 [00:00<?, ?it/s]
+Configuration saved in ransom/checkpoint-117/config.json
+Model weights saved in ransom/checkpoint-117/pytorch_model.bin
+tokenizer config file saved in ransom/checkpoint-117/tokenizer_config.json
+Special tokens file saved in ransom/checkpoint-117/special_tokens_map.json
+ 61%|█████████████████████████████▎                  | 119/195 [00:56<01:06,  1.14it/s]
+
+
+ 66%|███████████████████████████████▌                | 128/195 [01:00<00:28,  2.37it/s]
+
+
+ 71%|██████████████████████████████████▏             | 139/195 [01:05<00:21,  2.57it/s]
+
+
+
+ 78%|█████████████████████████████████████▋          | 153/195 [01:10<00:18,  2.30it/s]
+ 80%|██████████████████████████████████████▍         | 156/195 [01:12<00:17,  2.28it/s]***** Running Evaluation *****
+  Num examples = 208
+  Batch size = 4
+Configuration saved in ransom/checkpoint-156/config.json
+Model weights saved in ransom/checkpoint-156/pytorch_model.bin
+tokenizer config file saved in ransom/checkpoint-156/tokenizer_config.json
+Special tokens file saved in ransom/checkpoint-156/special_tokens_map.json
+ 81%|██████████████████████████████████████▋         | 157/195 [01:14<00:43,  1.15s/it]
+
+ 83%|███████████████████████████████████████▉        | 162/195 [01:17<00:17,  1.91it/s]
+
+
+ 88%|██████████████████████████████████████████▎     | 172/195 [01:21<00:09,  2.40it/s]
+
+
+ 93%|████████████████████████████████████████████▌   | 181/195 [01:25<00:05,  2.36it/s]
+
+
+ 98%|███████████████████████████████████████████████ | 191/195 [01:29<00:01,  2.41it/s]
+100%|████████████████████████████████████████████████| 195/195 [01:30<00:00,  2.47it/s]***** Running Evaluation *****
+  Num examples = 208
+  Batch size = 4
+Configuration saved in ransom/checkpoint-195/config.json
+Model weights saved in ransom/checkpoint-195/pytorch_model.bin
+tokenizer config file saved in ransom/checkpoint-195/tokenizer_config.json
+Special tokens file saved in ransom/checkpoint-195/special_tokens_map.json
+Training completed. Do not forget to share your model on huggingface.co/models =)
+Loading best model from ransom/checkpoint-117 (score: 0.9876543209876543).
+100%|████████████████████████████████████████████████| 195/195 [01:33<00:00,  2.09it/s]
+Configuration saved in ransom/config.json
+{'eval_loss': 0.036916766315698624, 'eval_accuracy': 0.9903846153846154, 'eval_f1': 0.9876543209876543, 'eval_precision': 0.975609756097561, 'eval_recall': 1.0, 'eval_runtime': 1.6251, 'eval_samples_per_second': 127.992, 'eval_steps_per_second': 31.998, 'epoch': 4.99}
+{'train_runtime': 94.716, 'train_samples_per_second': 33.046, 'train_steps_per_second': 2.059, 'train_loss': 0.1016619029144446, 'epoch': 4.99}
+Model weights saved in ransom/pytorch_model.bin
+loading configuration file ransom/config.json
+Model config DistilBertConfig {
+  "_name_or_path": "ransom",
+  "activation": "gelu",
+  "architectures": [
+    "DistilBertForSequenceClassification"
+  ],
+  "attention_dropout": 0.1,
+  "dim": 768,
+  "dropout": 0.1,
+  "hidden_dim": 3072,
+  "id2label": {
+    "0": "non-malicious",
+    "1": "malicious"
+  },
+  "initializer_range": 0.02,
+  "label2id": {
+    "malicious": 1,
+    "non-malicious": 0
+  },
+  "max_position_embeddings": 512,
+  "model_type": "distilbert",
+  "n_heads": 12,
+  "n_layers": 6,
+  "output_past": true,
+  "pad_token_id": 0,
+  "problem_type": "single_label_classification",
+  "qa_dropout": 0.1,
+  "seq_classif_dropout": 0.2,
+  "sinusoidal_pos_embds": false,
+  "tie_weights_": true,
+  "torch_dtype": "float32",
+  "transformers_version": "4.19.4",
+  "vocab_size": 28996
+}
+loading weights file ransom/pytorch_model.bin
+All model checkpoint weights were used when initializing DistilBertForSequenceClassification.
+All the weights of DistilBertForSequenceClassification were initialized from the model checkpoint at ransom.
+If your task is similar to the task the model of the checkpoint was trained on, you can already use DistilBertForSequenceClassification for predictions without further training.
+***** Running Prediction *****
+  Num examples = 209
+  Batch size = 4
+ 89%|████████████████████████████████████████████▎     | 47/53 [00:01<00:00, 33.44it/s]
+----------------------------------------
+{'test_loss': 0.09959258139133453, 'test_accuracy': 0.9617224880382775, 'test_f1': 0.9473684210526316, 'test_precision': 0.935064935064935, 'test_recall': 0.96, 'test_runtime': 1.6376, 'test_samples_per_second': 127.625, 'test_steps_per_second': 32.364}
+ 96%|████████████████████████████████████████████████  | 51/53 [00:01<00:00, 34.89it/s]Traceback (most recent call last):
+  File "/home/sam/Documents/hacs479/train_model.py", line 79, in <module>
+    incorrect = [path for pred, label, path in zip(preds[0], preds[1], data['test']['path']) if (pred[0] < pred[1] and label == 0) or (pred[0] > pred[1] and label == 1)]
+  File "/home/sam/.local/lib/python3.10/site-packages/datasets/arrow_dataset.py", line 2356, in __getitem__
+    return self._getitem(
+  File "/home/sam/.local/lib/python3.10/site-packages/datasets/arrow_dataset.py", line 2340, in _getitem
+    pa_subtable = query_table(self._data, key, indices=self._indices if self._indices is not None else None)
+  File "/home/sam/.local/lib/python3.10/site-packages/datasets/formatting/formatting.py", line 460, in query_table
+    _check_valid_column_key(key, table.column_names)
+  File "/home/sam/.local/lib/python3.10/site-packages/datasets/formatting/formatting.py", line 400, in _check_valid_column_key
+    raise KeyError(f"Column {key} not in the dataset. Current columns in the dataset: {columns}")
+KeyError: "Column path not in the dataset. Current columns in the dataset: ['text', 'label']"
