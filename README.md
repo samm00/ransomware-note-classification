@@ -1,24 +1,6 @@
-# RansomNoteFiles
-Recently, I was trying some ideas on the ransom note files of many ransomware. The results were submitted to an academic journal to evaluate the findings. I will share the results later.
+# Tuning Pre-Trained Neural Text Classifiers to Identify Ransomware Notes
 
-This Folder contains the ransom note files of many ransomware.
+This repo houses the code and data for [Tuning Pre-Trained Neural Text Classifiers to Identify Ransomware Notes](Paper.pdf).
 
-71 ransomware familes.
-
-182 ransom note files.
-
-Extensions: txt, html, htm, hta and rtf.
-
-The ransom note files are organised by families and in many cases by the version of the family. For more details, see the Ransom RansomDetails.pdf
-
-we collected the ransom note files:
-
--from Malware Traffic Analysis Projcet of Brad Duncan.
-
--from Hybrid-Analysis, looking for the terms of the most known ransom note names.
-
--by running some samples in our VMs.
-
--from the week in ransomware of BleepingComputer.
-
--from the Pastebins of the ransomware hunter Michael Gillespie the owner of Id-Ransomware project.
+#### Abstract
+The ability to identify files on a system that indicate malicious activity is an important technique to maintain system security. Research in this area has focused on the code in the malicious files themselves, but the human language text files that come with certain types of malware (i.e. ransomware) are often overlooked. In this paper, we present a novel method for ransomware note classification, applying natural language processing techniques to the study of malicious activity detection. We present our results which show strong performance by tuning a pre-trained sequence classifier on ransomware notes and other types of benign files, demonstrating accurate identification of ransomware note text.
