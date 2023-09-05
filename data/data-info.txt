@@ -1,0 +1,52 @@
+=========
+  Total
+=========
+Num of total files: 2531 
+        180 malicous, 2351 clean 
+        42 prose, 420 email, 31 btc articles, 83 instruct, 293 todo, 504 journal, 41 readme, 84 resume, 378 game, 459 math, 16 logs
+------
+=========
+  Split
+=========
+Num of train files: 1772 
+        126 malicous, 1646 clean 
+        29 prose, 294 email, 22 btc articles, 58 instruct, 205 todo, 353 journal, 29 readme, 59 resume, 265 game, 321 math, 11 logs
+------
+Num of eval files: 377 
+        27 malicous, 350 clean 
+        6 prose, 63 email, 4 btc articles, 12 instruct, 44 todo, 76 journal, 6 readme, 12 resume, 56 game, 69 math, 2 logs
+------
+Num of test files: 382 
+        27 malicous, 355 clean 
+        7 prose, 63 email, 5 btc articles, 13 instruct, 44 todo, 75 journal, 6 readme, 13 resume, 57 game, 69 math, 3 logs
+------
+===========
+  Chunked
+===========
+Num of chunked train files: 3751 
+        285 malicous, 3466 clean 
+        347 prose, 305 email, 254 btc articles, 462 instruct, 99 todo, 317 journal, 226 readme, 382 resume, 345 game, 416 math, 313 logs
+------
+Num of chunked eval files: 764 
+        53 malicous, 711 clean 
+        71 prose, 68 email, 43 btc articles, 77 instruct, 35 todo, 69 journal, 49 readme, 68 resume, 80 game, 95 math, 56 logs
+------
+Num of chunked test files: 811 
+        56 malicous, 755 clean 
+        86 prose, 68 email, 61 btc articles, 82 instruct, 13 todo, 69 journal, 18 readme, 81 resume, 67 game, 91 math, 119 logs
+------
+==========
+  Capped
+==========
+Num of chunked + capped train files: 3144 
+        285 malicous, 2859 clean 
+        285 prose, 285 email, 254 btc articles, 285 instruct, 99 todo, 285 journal, 226 readme, 285 resume, 285 game, 285 math, 285 logs
+------
+Num of chunked + capped eval files: 604 
+        53 malicous, 551 clean 
+        53 prose, 53 email, 43 btc articles, 53 instruct, 35 todo, 53 journal, 49 readme, 53 resume, 53 game, 53 math, 53 logs
+------
+Num of chunked + capped test files: 591 
+        56 malicous, 535 clean 
+        56 prose, 56 email, 56 btc articles, 56 instruct, 13 todo, 56 journal, 18 readme, 56 resume, 56 game, 56 math, 56 logs
+------

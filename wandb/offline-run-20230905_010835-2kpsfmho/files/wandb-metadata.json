@@ -1,0 +1,105 @@
+{
+    "os": "Linux-6.4.12-1-MANJARO-x86_64-with-glibc2.38",
+    "python": "3.11.4",
+    "heartbeatAt": "2023-09-05T05:08:35.687899",
+    "startedAt": "2023-09-05T05:08:35.611097",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "/home/shamuel/Documents/hacs479/ransomware-note-classification/train_model.py",
+    "codePath": "train_model.py",
+    "git": {
+        "remote": "https://github.com/samm00/ransomware-note-classification.git",
+        "commit": "5cf09868bd7250f0c49ad75033a72d28e74e1f88"
+    },
+    "email": "samm@umd.edu",
+    "root": "/home/shamuel/Documents/hacs479/ransomware-note-classification",
+    "host": "ktabxana",
+    "username": "shamuel",
+    "executable": "/home/shamuel/miniconda3/envs/ransom/bin/python",
+    "cpu_count": 6,
+    "cpu_count_logical": 12,
+    "cpu_freq": {
+        "current": 2957.00675,
+        "min": 1200.0,
+        "max": 3300.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 1354.353,
+            "min": 1200.0,
+            "max": 3300.0
+        },
+        {
+            "current": 4141.992,
+            "min": 1200.0,
+            "max": 3300.0
+        },
+        {
+            "current": 3317.801,
+            "min": 1200.0,
+            "max": 3300.0
+        },
+        {
+            "current": 3317.078,
+            "min": 1200.0,
+            "max": 3300.0
+        },
+        {
+            "current": 3955.874,
+            "min": 1200.0,
+            "max": 3300.0
+        },
+        {
+            "current": 1200.0,
+            "min": 1200.0,
+            "max": 3300.0
+        },
+        {
+            "current": 3860.148,
+            "min": 1200.0,
+            "max": 3300.0
+        },
+        {
+            "current": 1200.0,
+            "min": 1200.0,
+            "max": 3300.0
+        },
+        {
+            "current": 4139.104,
+            "min": 1200.0,
+            "max": 3300.0
+        },
+        {
+            "current": 3300.0,
+            "min": 1200.0,
+            "max": 3300.0
+        },
+        {
+            "current": 4034.565,
+            "min": 1200.0,
+            "max": 3300.0
+        },
+        {
+            "current": 3776.016,
+            "min": 1200.0,
+            "max": 3300.0
+        }
+    ],
+    "disk": {
+        "total": 200.1433982849121,
+        "used": 59.701416015625
+    },
+    "gpu": "NVIDIA GeForce RTX 3050 Laptop GPU",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 3050 Laptop GPU",
+            "memory_total": 4294967296
+        }
+    ],
+    "memory": {
+        "total": 30.691768646240234
+    }
+}

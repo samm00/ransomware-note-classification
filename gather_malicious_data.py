@@ -41,29 +41,29 @@ for path, subdirs, files in os.walk('raw_data/ransom_notes/'):
                 if name == '!HELP_SOS.hta':
                     text = text[text.index('HERE1')+5:text.index('HERE2')]
 
-                link = r'(https?:\/\/)?(www\.)?([\[\]_\.~!\*\'();:@&=\+\$,\/\?%#A-z0-9]+\.[\[\]_\.~!\*\'();:@&=\+\$,\/\?%#A-z0-9]+)+'
-                text = re.sub(link, ' REPLACEDLINK ', text)
-                text = re.sub(r'<.+?>', '', text)
+                #link = r'(https?:\/\/)?(www\.)?([\[\]_\.~!\*\'();:@&=\+\$,\/\?%#A-z0-9]+\.[\[\]_\.~!\*\'();:@&=\+\$,\/\?%#A-z0-9]+)+'
+                #text = re.sub(link, ' REPLACEDLINK ', text)
+                #text = re.sub(r'<.+?>', '', text)
                 text = re.sub(r'\u0000', '', text)
                 text = re.sub(r'[\\/]', ' ', text)
                 text = re.sub(r'[^a-zA-Z\d\s@\.,!\?:;\']', '', text)
                 text = re.sub(r'\s\s+', ' ', text)
                 text = re.sub(r'[^\s\.!:,\\/@;]{20,}', '', text)
-                data[key[16:]] = text.strip()
+                data['ransom_' + key[16:]] = text.strip()
         except:
             with open(key, 'r', encoding = 'latin-1') as f:
                 text = f.read()
                 if name[-4:] == 'html' or name[-3:] == 'hta' or name[-3:] == 'htm':
                     text = h.handle(text)
-                link = r'(https?:\/\/)?(www\.)?([\[\]_\.~!\*\'();:@&=\+\$,\/\?%#A-z0-9]+\.[\[\]_\.~!\*\'();:@&=\+\$,\/\?%#A-z0-9]+)+'
-                text = re.sub(link, ' REPLACEDLINK ', text)
-                text = re.sub(r'<.+?>', '', text)
+                # link = r'(https?:\/\/)?(www\.)?([\[\]_\.~!\*\'();:@&=\+\$,\/\?%#A-z0-9]+\.[\[\]_\.~!\*\'();:@&=\+\$,\/\?%#A-z0-9]+)+'
+                # text = re.sub(link, ' REPLACEDLINK ', text)
+                # text = re.sub(r'<.+?>', '', text) # remove HTML tages that werent caught
                 text = re.sub(r'\u0000', '', text)
                 text = re.sub(r'[\\/]', ' ', text)
                 text = re.sub(r'[^a-zA-Z\d\s@\.,!\?:;\']', '', text)
                 text = re.sub(r'\s\s+', ' ', text)
                 text = re.sub(r'[^\s\.!:,\\/@;]{40,}', '', text)
-                data[key[16:]] = text.strip()
+                data['ransom_' + key[16:]] = text.strip()
 
 with open('data/malicious_data.json', 'w') as f:
     json.dump(data, f, ensure_ascii = False)
