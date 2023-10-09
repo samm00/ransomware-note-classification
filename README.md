@@ -1,5 +1,9 @@
 # Tuning Pre-Trained Neural Text Classifiers to Identify Ransomware Notes
 
+### [UNDER CONSTRUCTION]
+Currently merging in updates. The code is all updated, but the paper is in the process of being updated.
+
+### [OLD VERSION]
 This repo houses the code and data for [Tuning Pre-Trained Neural Text Classifiers to Identify Ransomware Notes](Paper.pdf).
 
 #### Abstract
