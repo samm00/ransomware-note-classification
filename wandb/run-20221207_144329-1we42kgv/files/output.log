@@ -1,0 +1,73 @@
+
+
+
+
+
+
+
+
+
+
+ 11%|███████▉                                                              | 9/80 [01:40<14:03, 11.88s/it]
+
+
+
+
+
+
+
+
+
+
+ 24%|████████████████▍                                                    | 19/80 [03:19<09:42,  9.55s/it]
+
+
+
+
+
+
+
+
+
+
+ 36%|█████████████████████████                                            | 29/80 [04:57<09:29, 11.16s/it]
+
+
+
+
+
+
+
+
+
+
+ 49%|█████████████████████████████████▋                                   | 39/80 [06:41<07:35, 11.11s/it]
+ 50%|██████████████████████████████████▌                                  | 40/80 [06:42<05:21,  8.04s/it]***** Running Evaluation *****
+  Num examples = 208
+  Batch size = 16
+
+
+
+
+
+
+
+
+
+
+
+  File "/home/sam/Documents/hacs479/train_model.py", line 69, in <module>█| 13/13 [00:34<00:00,  2.97s/it]
+    trainer.train()
+  File "/home/sam/.local/lib/python3.10/site-packages/transformers/trainer.py", line 1317, in train
+    return inner_training_loop(
+  File "/home/sam/.local/lib/python3.10/site-packages/transformers/trainer.py", line 1644, in _inner_training_loop
+    self._maybe_log_save_evaluate(tr_loss, model, trial, epoch, ignore_keys_for_eval)
+  File "/home/sam/.local/lib/python3.10/site-packages/transformers/trainer.py", line 1796, in _maybe_log_save_evaluate
+    metrics = self.evaluate(ignore_keys=ignore_keys_for_eval)
+  File "/home/sam/.local/lib/python3.10/site-packages/transformers/trainer.py", line 2458, in evaluate
+    output = eval_loop(
+  File "/home/sam/.local/lib/python3.10/site-packages/transformers/trainer.py", line 2740, in evaluation_loop
+    metrics = self.compute_metrics(EvalPrediction(predictions=all_preds, label_ids=all_labels))
+  File "/home/sam/Documents/hacs479/train_model.py", line 33, in compute_metrics
+    acc = accuracy.compute(predictions, labels)
+TypeError: compute() takes 1 positional argument but 3 were given

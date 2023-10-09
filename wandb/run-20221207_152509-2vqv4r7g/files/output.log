@@ -1,0 +1,141 @@
+
+
+
+
+
+  1%|▍                                             | 4/400 [00:35<1:00:50,  9.22s/it]
+
+
+
+
+
+  2%|█                                             | 9/400 [01:24<1:04:27,  9.89s/it]
+
+
+
+
+
+  4%|█▋                                             | 14/400 [02:08<54:57,  8.54s/it]
+
+
+
+
+
+  5%|██▏                                            | 19/400 [02:48<51:55,  8.18s/it]
+
+
+
+
+
+  6%|██▊                                            | 24/400 [03:24<45:22,  7.24s/it]
+
+
+
+
+
+  7%|███▎                                         | 29/400 [04:21<1:12:41, 11.75s/it]
+
+
+
+
+
+  8%|███▉                                           | 34/400 [05:03<58:02,  9.51s/it]
+
+
+
+
+ 10%|████▎                                        | 38/400 [05:41<1:01:27, 10.19s/it]
+ 10%|████▋                                          | 40/400 [05:49<40:38,  6.77s/it]***** Running Evaluation *****
+  Num examples = 208
+  Batch size = 16
+
+
+
+
+
+
+
+
+
+
+ 92%|████████████████████████████████████████████▎   | 12/13 [00:27<00:02,  2.65s/it]
+Trainer is attempting to log a value of "{'f1': 0.9753086419753086}" of type <class 'dict'> for key "eval/f1" as a scalar. This invocation of Tensorboard's writer.add_scalar() is incorrect so we dropped this attribute.
+Trainer is attempting to log a value of "{'precision': 0.9634146341463414}" of type <class 'dict'> for key "eval/precision" as a scalar. This invocation of Tensorboard's writer.add_scalar() is incorrect so we dropped this attribute.
+Trainer is attempting to log a value of "{'recall': 0.9875}" of type <class 'dict'> for key "eval/recall" as a scalar. This invocation of Tensorboard's writer.add_scalar() is incorrect so we dropped this attribute.
+ 10%|████▋                                          | 40/400 [06:22<40:38,  6.77s/it]Saving model checkpoint to ransom/checkpoint-40
+Configuration saved in ransom/checkpoint-40/config.json
+Model weights saved in ransom/checkpoint-40/pytorch_model.bin
+tokenizer config file saved in ransom/checkpoint-40/tokenizer_config.json
+Special tokens file saved in ransom/checkpoint-40/special_tokens_map.json
+
+
+
+ 11%|████▉                                        | 44/400 [07:05<1:14:27, 12.55s/it]
+
+
+
+
+
+ 12%|█████▊                                         | 49/400 [07:50<55:34,  9.50s/it]
+
+
+
+
+
+ 14%|██████▎                                        | 54/400 [08:40<57:41, 10.00s/it]
+
+
+
+
+
+ 15%|██████▋                                      | 59/400 [09:32<1:02:12, 10.95s/it]
+
+
+
+
+
+ 16%|███████▌                                       | 64/400 [10:26<58:28, 10.44s/it]
+
+
+
+
+
+ 17%|███████▊                                     | 69/400 [11:21<1:06:31, 12.06s/it]
+
+
+
+ 18%|████████                                     | 72/400 [11:55<1:03:03, 11.53s/it]Traceback (most recent call last):
+  File "/home/sam/Documents/hacs479/train_model.py", line 69, in <module>
+  File "/home/sam/.local/lib/python3.10/site-packages/transformers/trainer.py", line 1317, in train
+    return inner_training_loop(
+  File "/home/sam/.local/lib/python3.10/site-packages/transformers/trainer.py", line 1554, in _inner_training_loop
+    tr_loss_step = self.training_step(model, inputs)
+  File "/home/sam/.local/lib/python3.10/site-packages/transformers/trainer.py", line 2183, in training_step
+    loss = self.compute_loss(model, inputs)
+  File "/home/sam/.local/lib/python3.10/site-packages/transformers/trainer.py", line 2215, in compute_loss
+    outputs = model(**inputs)
+  File "/home/sam/.local/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1110, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/sam/.local/lib/python3.10/site-packages/transformers/models/distilbert/modeling_distilbert.py", line 747, in forward
+    distilbert_output = self.distilbert(
+  File "/home/sam/.local/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1110, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/sam/.local/lib/python3.10/site-packages/transformers/models/distilbert/modeling_distilbert.py", line 567, in forward
+    return self.transformer(
+  File "/home/sam/.local/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1110, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/sam/.local/lib/python3.10/site-packages/transformers/models/distilbert/modeling_distilbert.py", line 345, in forward
+    layer_outputs = layer_module(
+  File "/home/sam/.local/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1110, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/sam/.local/lib/python3.10/site-packages/transformers/models/distilbert/modeling_distilbert.py", line 283, in forward
+    sa_output = self.attention(
+  File "/home/sam/.local/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1110, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/sam/.local/lib/python3.10/site-packages/transformers/models/distilbert/modeling_distilbert.py", line 225, in forward
+    context = self.out_lin(context)  # (bs, q_length, dim)
+  File "/home/sam/.local/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1110, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/sam/.local/lib/python3.10/site-packages/torch/nn/modules/linear.py", line 103, in forward
+    return F.linear(input, self.weight, self.bias)
+KeyboardInterrupt

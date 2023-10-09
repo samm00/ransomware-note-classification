@@ -1,0 +1,73 @@
+
+
+  3%|█▌                                                | 7/220 [00:03<01:30,  2.36it/s]
+
+
+  7%|███▌                                             | 16/220 [00:07<01:21,  2.49it/s]
+
+
+ 12%|█████▊                                           | 26/220 [00:11<01:20,  2.42it/s]
+
+
+ 16%|████████                                         | 36/220 [00:15<01:17,  2.37it/s]
+
+ 19%|█████████▏                                       | 41/220 [00:17<01:11,  2.51it/s]
+ 20%|█████████▊                                       | 44/220 [00:18<01:10,  2.50it/s]***** Running Evaluation *****
+  Num examples = 133
+  Batch size = 4
+ 20%|█████████▊                                       | 44/220 [00:19<01:10,  2.50it/s]                                                                                                                        Saving model checkpoint to ransom/checkpoint-44
+Configuration saved in ransom/checkpoint-44/config.json
+Model weights saved in ransom/checkpoint-44/pytorch_model.bin
+tokenizer config file saved in ransom/checkpoint-44/tokenizer_config.json
+Special tokens file saved in ransom/checkpoint-44/special_tokens_map.json
+
+ 24%|███████████▌                                     | 52/220 [00:23<01:16,  2.18it/s]
+
+
+ 28%|█████████████▊                                   | 62/220 [00:27<01:05,  2.42it/s]
+
+
+ 33%|████████████████                                 | 72/220 [00:31<00:59,  2.49it/s]
+
+
+ 37%|██████████████████                               | 81/220 [00:35<00:58,  2.38it/s]
+
+ 39%|███████████████████▏                             | 86/220 [00:37<00:56,  2.36it/s]
+ 40%|███████████████████▌                             | 88/220 [00:37<00:49,  2.66it/s]***** Running Evaluation *****
+  Num examples = 133
+  Batch size = 4
+ 40%|███████████████████▌                             | 88/220 [00:39<00:49,  2.66it/s]                                                                                                                        Saving model checkpoint to ransom/checkpoint-88
+Configuration saved in ransom/checkpoint-88/config.json
+Model weights saved in ransom/checkpoint-88/pytorch_model.bin
+tokenizer config file saved in ransom/checkpoint-88/tokenizer_config.json
+Special tokens file saved in ransom/checkpoint-88/special_tokens_map.json
+ 42%|████████████████████▍                            | 92/220 [00:41<01:14,  1.72it/s]
+
+ 44%|█████████████████████▌                           | 97/220 [00:43<00:51,  2.37it/s]
+
+
+
+ 51%|████████████████████████▍                       | 112/220 [00:49<00:44,  2.43it/s]
+
+
+ 55%|██████████████████████████▌                     | 122/220 [00:53<00:39,  2.47it/s]
+
+
+ 60%|████████████████████████████▌                   | 131/220 [00:57<00:36,  2.44it/s]
+ 60%|████████████████████████████▊                   | 132/220 [00:57<00:34,  2.58it/s]***** Running Evaluation *****
+  Num examples = 133
+  Batch size = 4
+ 60%|████████████████████████████▊                   | 132/220 [00:58<00:34,  2.58it/s]                                                                                                                        Saving model checkpoint to ransom/checkpoint-132
+Configuration saved in ransom/checkpoint-132/config.json
+Model weights saved in ransom/checkpoint-132/pytorch_model.bin
+tokenizer config file saved in ransom/checkpoint-132/tokenizer_config.json
+Special tokens file saved in ransom/checkpoint-132/special_tokens_map.json
+{'eval_loss': 0.10187648236751556, 'eval_accuracy': 0.9774436090225563, 'eval_f1': 0.9655172413793104, 'eval_precision': 0.9545454545454546, 'eval_recall': 0.9767441860465116, 'eval_runtime': 1.0716, 'eval_samples_per_second': 124.119, 'eval_steps_per_second': 31.73, 'epoch': 3.0}
+ 60%|█████████████████████████████                   | 133/220 [00:59<01:20,  1.08it/s]Traceback (most recent call last):
+  File "/home/sam/Documents/hacs479/train_model.py", line 70, in <module>
+    trainer.train()
+  File "/home/sam/.local/lib/python3.10/site-packages/transformers/trainer.py", line 1317, in train
+    return inner_training_loop(
+  File "/home/sam/.local/lib/python3.10/site-packages/transformers/trainer.py", line 1559, in _inner_training_loop
+    and (torch.isnan(tr_loss_step) or torch.isinf(tr_loss_step))
+KeyboardInterrupt

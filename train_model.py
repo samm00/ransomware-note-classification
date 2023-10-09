@@ -1,9 +1,10 @@
-from datasets import load_dataset
+from datasets import load_dataset, Features, Value
 import evaluate
 import numpy as np
 from transformers import AutoTokenizer, DataCollatorWithPadding, AutoModelForSequenceClassification, TrainingArguments, Trainer
 
-data = load_dataset("csv", data_files={'train': "train.csv", 'eval': "eval.csv", 'test': "test.csv"})
+data = load_dataset("csv", data_files={'train': "data/train.csv", 'eval': "data/eval.csv", 'test': "data/test.csv"})
+print(data)
 
 tokenizer = AutoTokenizer.from_pretrained("distilbert-base-cased")
 
@@ -43,8 +44,8 @@ training_args = TrainingArguments(
     save_strategy="epoch",
     per_device_train_batch_size=4,
     per_device_eval_batch_size=4,
-    gradient_accumulation_steps=4,
-    num_train_epochs=4,
+    gradient_accumulation_steps=8,
+    num_train_epochs=10,
     weight_decay=0.02,
     logging_steps=10,
     load_best_model_at_end=True,

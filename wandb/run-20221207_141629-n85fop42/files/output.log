@@ -1,0 +1,246 @@
+
+
+
+
+
+
+
+
+
+
+  4%|███                                                                  | 9/200 [01:37<36:26, 11.45s/it]
+
+
+
+
+
+
+
+
+
+
+ 10%|██████▍                                                             | 19/200 [03:14<28:09,  9.33s/it]
+
+
+
+
+
+
+
+
+
+
+ 14%|█████████▊                                                          | 29/200 [04:51<31:01, 10.89s/it]
+
+
+
+
+
+
+
+
+
+
+ 20%|█████████████▎                                                      | 39/200 [06:35<29:22, 10.94s/it]
+ 20%|█████████████▌                                                      | 40/200 [06:36<21:07,  7.92s/it]***** Running Evaluation *****
+  Num examples = 208
+  Batch size = 16
+
+
+
+
+
+
+
+
+
+
+
+ 92%|███████████████████████████████████████████████████████████████▋     | 12/13 [00:30<00:02,  2.84s/it]
+Configuration saved in ransom/checkpoint-40/config.json
+Model weights saved in ransom/checkpoint-40/pytorch_model.bin
+tokenizer config file saved in ransom/checkpoint-40/tokenizer_config.json
+Special tokens file saved in ransom/checkpoint-40/special_tokens_map.json
+
+
+
+
+
+
+
+
+ 24%|████████████████▋                                                   | 49/200 [08:48<25:45, 10.24s/it]
+
+
+
+
+
+
+
+
+
+
+ 30%|████████████████████                                                | 59/200 [10:30<25:47, 10.97s/it]
+
+
+
+
+
+
+
+
+
+
+ 34%|███████████████████████▍                                            | 69/200 [12:16<24:22, 11.16s/it]
+
+
+
+
+
+
+
+
+
+
+ 40%|██████████████████████████▊                                         | 79/200 [13:59<18:47,  9.32s/it]
+ 40%|███████████████████████████▏                                        | 80/200 [14:00<13:39,  6.83s/it]***** Running Evaluation *****
+  Num examples = 208
+  Batch size = 16
+
+
+
+
+
+
+
+
+
+
+
+
+Configuration saved in ransom/checkpoint-80/config.json
+{'eval_loss': 0.07783455401659012, 'eval_accuracy': 0.9807692307692307, 'eval_runtime': 41.7683, 'eval_samples_per_second': 4.98, 'eval_steps_per_second': 0.311, 'epoch': 2.0}
+Model weights saved in ransom/checkpoint-80/pytorch_model.bin
+tokenizer config file saved in ransom/checkpoint-80/tokenizer_config.json
+Special tokens file saved in ransom/checkpoint-80/special_tokens_map.json
+
+
+
+
+
+
+
+
+ 44%|██████████████████████████████▎                                     | 89/200 [16:20<19:58, 10.79s/it]
+
+
+
+
+
+
+
+
+
+
+ 50%|█████████████████████████████████▋                                  | 99/200 [18:13<17:20, 10.30s/it]
+
+
+
+
+
+
+
+
+
+
+ 55%|████████████████████████████████████▌                              | 109/200 [20:10<13:37,  8.98s/it]
+
+
+
+
+
+
+
+
+
+ 59%|███████████████████████████████████████▌                           | 118/200 [21:40<12:47,  9.36s/it]
+ 60%|████████████████████████████████████████▏                          | 120/200 [21:56<10:53,  8.17s/it]***** Running Evaluation *****
+  Num examples = 208
+  Batch size = 16
+
+
+
+
+
+
+
+
+
+
+
+ 92%|███████████████████████████████████████████████████████████████▋     | 12/13 [00:30<00:02,  2.86s/it]
+Configuration saved in ransom/checkpoint-120/config.json
+Model weights saved in ransom/checkpoint-120/pytorch_model.bin
+tokenizer config file saved in ransom/checkpoint-120/tokenizer_config.json
+Special tokens file saved in ransom/checkpoint-120/special_tokens_map.json
+
+
+
+
+
+
+
+
+ 64%|███████████████████████████████████████████▏                       | 129/200 [24:05<12:33, 10.62s/it]
+
+
+
+
+
+
+
+
+
+
+ 70%|██████████████████████████████████████████████▌                    | 139/200 [26:06<10:49, 10.65s/it]
+
+ 70%|███████████████████████████████████████████████▏                   | 141/200 [26:29<10:35, 10.78s/it]Traceback (most recent call last):
+  File "/home/sam/Documents/hacs479/train_model.py", line 63, in <module>
+    eval_dataset=tokenized_data["eval"],
+  File "/home/sam/.local/lib/python3.10/site-packages/transformers/trainer.py", line 1317, in train
+    return inner_training_loop(
+  File "/home/sam/.local/lib/python3.10/site-packages/transformers/trainer.py", line 1554, in _inner_training_loop
+    tr_loss_step = self.training_step(model, inputs)
+  File "/home/sam/.local/lib/python3.10/site-packages/transformers/trainer.py", line 2183, in training_step
+    loss = self.compute_loss(model, inputs)
+  File "/home/sam/.local/lib/python3.10/site-packages/transformers/trainer.py", line 2215, in compute_loss
+    outputs = model(**inputs)
+  File "/home/sam/.local/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1110, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/sam/.local/lib/python3.10/site-packages/transformers/models/distilbert/modeling_distilbert.py", line 747, in forward
+    distilbert_output = self.distilbert(
+  File "/home/sam/.local/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1110, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/sam/.local/lib/python3.10/site-packages/transformers/models/distilbert/modeling_distilbert.py", line 567, in forward
+    return self.transformer(
+  File "/home/sam/.local/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1110, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/sam/.local/lib/python3.10/site-packages/transformers/models/distilbert/modeling_distilbert.py", line 345, in forward
+    layer_outputs = layer_module(
+  File "/home/sam/.local/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1110, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/sam/.local/lib/python3.10/site-packages/transformers/models/distilbert/modeling_distilbert.py", line 299, in forward
+    ffn_output = self.ffn(sa_output)  # (bs, seq_length, dim)
+  File "/home/sam/.local/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1110, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/sam/.local/lib/python3.10/site-packages/transformers/models/distilbert/modeling_distilbert.py", line 244, in forward
+    return apply_chunking_to_forward(self.ff_chunk, self.chunk_size_feed_forward, self.seq_len_dim, input)
+  File "/home/sam/.local/lib/python3.10/site-packages/transformers/pytorch_utils.py", line 241, in apply_chunking_to_forward
+    return forward_fn(*input_tensors)
+  File "/home/sam/.local/lib/python3.10/site-packages/transformers/models/distilbert/modeling_distilbert.py", line 249, in ff_chunk
+    x = self.lin2(x)
+  File "/home/sam/.local/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1110, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/sam/.local/lib/python3.10/site-packages/torch/nn/modules/linear.py", line 103, in forward
+    return F.linear(input, self.weight, self.bias)
+KeyboardInterrupt

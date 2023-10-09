@@ -1,0 +1,380 @@
+
+
+
+
+
+
+
+
+
+
+  4%|██                                            | 9/200 [02:51<1:08:17, 21.45s/it]
+
+
+
+
+
+
+
+
+
+
+ 10%|████▍                                          | 19/200 [05:54<53:41, 17.80s/it]
+
+
+
+
+
+
+
+
+
+
+ 14%|██████▊                                        | 29/200 [08:57<58:31, 20.54s/it]
+
+
+
+
+
+
+
+
+
+
+ 20%|█████████▏                                     | 39/200 [12:04<53:22, 19.89s/it]
+ 20%|█████████▍                                     | 40/200 [12:05<38:19, 14.37s/it]***** Running Evaluation *****
+  Num examples = 208
+  Batch size = 16
+
+
+
+
+
+
+
+
+
+
+
+ 92%|████████████████████████████████████████████▎   | 12/13 [00:58<00:05,  5.51s/it]
+
+Configuration saved in ransom/checkpoint-40/config.json
+Model weights saved in ransom/checkpoint-40/pytorch_model.bin
+tokenizer config file saved in ransom/checkpoint-40/tokenizer_config.json
+Special tokens file saved in ransom/checkpoint-40/special_tokens_map.json
+
+
+
+
+
+
+
+
+ 24%|███████████▌                                   | 49/200 [16:07<48:05, 19.11s/it]
+
+
+
+
+
+
+
+
+
+
+ 30%|█████████████▊                                 | 59/200 [19:17<47:43, 20.31s/it]
+
+
+
+
+
+
+
+
+
+
+ 34%|████████████████▏                              | 69/200 [22:32<42:45, 19.59s/it]
+
+
+
+
+
+
+
+
+
+
+ 40%|██████████████████▌                            | 79/200 [25:34<34:12, 16.96s/it]
+ 40%|██████████████████▊                            | 80/200 [25:36<24:47, 12.40s/it]***** Running Evaluation *****
+  Num examples = 208
+  Batch size = 16
+
+
+
+
+
+
+
+
+
+
+
+ 92%|████████████████████████████████████████████▎   | 12/13 [00:58<00:05,  5.51s/it]
+
+Configuration saved in ransom/checkpoint-80/config.json
+Model weights saved in ransom/checkpoint-80/pytorch_model.bin
+tokenizer config file saved in ransom/checkpoint-80/tokenizer_config.json
+Special tokens file saved in ransom/checkpoint-80/special_tokens_map.json
+
+
+
+
+
+
+
+
+ 44%|████████████████████▉                          | 89/200 [29:24<32:50, 17.75s/it]
+
+
+
+
+
+
+
+
+
+
+ 50%|███████████████████████▎                       | 99/200 [32:25<27:39, 16.43s/it]
+
+
+
+
+
+
+
+
+
+
+ 55%|█████████████████████████                     | 109/200 [35:43<24:28, 16.13s/it]
+
+
+
+
+
+
+
+
+
+
+ 60%|███████████████████████████▎                  | 119/200 [38:58<27:42, 20.53s/it]
+ 60%|███████████████████████████▌                  | 120/200 [39:00<20:13, 15.16s/it]***** Running Evaluation *****
+  Num examples = 208
+  Batch size = 16
+
+
+
+
+
+
+
+
+
+
+
+ 92%|████████████████████████████████████████████▎   | 12/13 [00:59<00:05,  5.52s/it]
+
+Configuration saved in ransom/checkpoint-120/config.json
+Model weights saved in ransom/checkpoint-120/pytorch_model.bin
+tokenizer config file saved in ransom/checkpoint-120/tokenizer_config.json
+Special tokens file saved in ransom/checkpoint-120/special_tokens_map.json
+
+
+
+
+
+
+
+
+
+ 65%|█████████████████████████████▉                | 130/200 [42:45<17:26, 14.95s/it]
+
+
+
+
+
+
+
+
+
+ 70%|███████████████████████████████▉              | 139/200 [45:32<16:43, 16.45s/it]
+
+
+
+
+
+
+
+
+
+
+ 74%|██████████████████████████████████▎           | 149/200 [48:12<13:44, 16.16s/it]
+
+
+
+
+
+
+
+
+
+
+ 80%|████████████████████████████████████▌         | 159/200 [51:35<14:21, 21.00s/it]
+ 80%|████████████████████████████████████▊         | 160/200 [51:36<10:08, 15.22s/it]***** Running Evaluation *****
+  Num examples = 208
+  Batch size = 16
+
+
+
+
+
+
+
+
+
+
+
+ 92%|████████████████████████████████████████████▎   | 12/13 [00:55<00:05,  5.19s/it]
+
+Configuration saved in ransom/checkpoint-160/config.json
+Model weights saved in ransom/checkpoint-160/pytorch_model.bin
+tokenizer config file saved in ransom/checkpoint-160/tokenizer_config.json
+Special tokens file saved in ransom/checkpoint-160/special_tokens_map.json
+
+
+
+
+
+
+
+
+ 84%|██████████████████████████████████████▊       | 169/200 [55:30<08:58, 17.39s/it]
+
+
+
+
+
+
+
+
+
+
+ 90%|█████████████████████████████████████████▏    | 179/200 [58:28<06:30, 18.61s/it]
+
+
+
+
+
+
+
+
+
+
+ 94%|█████████████████████████████████████████▌  | 189/200 [1:01:40<03:24, 18.56s/it]
+
+
+
+
+
+
+
+
+
+
+100%|███████████████████████████████████████████▊| 199/200 [1:04:26<00:17, 17.64s/it]
+100%|████████████████████████████████████████████| 200/200 [1:04:28<00:00, 13.07s/it]***** Running Evaluation *****
+  Num examples = 208
+  Batch size = 16
+
+
+
+
+
+
+
+
+
+
+
+ 92%|████████████████████████████████████████████▎   | 12/13 [00:55<00:05,  5.20s/it]
+Configuration saved in ransom/checkpoint-200/config.json
+Model weights saved in ransom/checkpoint-200/pytorch_model.bin
+tokenizer config file saved in ransom/checkpoint-200/tokenizer_config.json
+Special tokens file saved in ransom/checkpoint-200/special_tokens_map.json
+Training completed. Do not forget to share your model on huggingface.co/models =)
+Loading best model from ransom/checkpoint-80 (score: 0.9876543209876543).
+100%|████████████████████████████████████████████| 200/200 [1:05:34<00:00, 19.67s/it]
+Configuration saved in ransom/config.json
+Model weights saved in ransom/pytorch_model.bin
+loading configuration file ransom/config.json
+Model config DistilBertConfig {
+  "_name_or_path": "ransom",
+  "activation": "gelu",
+  "architectures": [
+    "DistilBertForSequenceClassification"
+  ],
+  "attention_dropout": 0.1,
+  "dim": 768,
+  "dropout": 0.1,
+  "hidden_dim": 3072,
+  "id2label": {
+    "0": "non-malicious",
+    "1": "malicious"
+  },
+  "initializer_range": 0.02,
+  "label2id": {
+    "malicious": 1,
+    "non-malicious": 0
+  },
+  "max_position_embeddings": 512,
+  "model_type": "distilbert",
+  "n_heads": 12,
+  "n_layers": 6,
+  "output_past": true,
+  "pad_token_id": 0,
+  "problem_type": "single_label_classification",
+  "qa_dropout": 0.1,
+  "seq_classif_dropout": 0.2,
+  "sinusoidal_pos_embds": false,
+  "tie_weights_": true,
+  "torch_dtype": "float32",
+  "transformers_version": "4.19.4",
+  "vocab_size": 28996
+}
+loading weights file ransom/pytorch_model.bin
+All model checkpoint weights were used when initializing DistilBertForSequenceClassification.
+All the weights of DistilBertForSequenceClassification were initialized from the model checkpoint at ransom.
+If your task is similar to the task the model of the checkpoint was trained on, you can already use DistilBertForSequenceClassification for predictions without further training.
+PyTorch: setting up devices
+The default value for the training argument `--report_to` will change in v5 (from all installed integrations to none). In v5, you will need to use `--report_to all` to get the same behavior as now. You should start updating your code and make this info disappear :-).
+The following columns in the test set don't have a corresponding argument in `DistilBertForSequenceClassification.forward` and have been ignored: text. If text are not expected by `DistilBertForSequenceClassification.forward`,  you can safely ignore this message.
+***** Running Prediction *****
+  Num examples = 209
+  Batch size = 16
+Traceback (most recent call last):
+  File "/home/sam/Documents/hacs479/train_model.py", line 89, in <module>
+    test_results = trainer.predict(tokenized_data['test'])
+  File "/home/sam/.local/lib/python3.10/site-packages/transformers/trainer.py", line 2532, in predict
+    output = eval_loop(
+  File "/home/sam/.local/lib/python3.10/site-packages/transformers/trainer.py", line 2625, in evaluation_loop
+    for step, inputs in enumerate(dataloader):
+  File "/home/sam/.local/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 530, in __next__
+    data = self._next_data()
+  File "/home/sam/.local/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 570, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "/home/sam/.local/lib/python3.10/site-packages/torch/utils/data/_utils/fetch.py", line 52, in fetch
+    return self.collate_fn(data)
+  File "/home/sam/.local/lib/python3.10/site-packages/transformers/data/data_collator.py", line 67, in default_data_collator
+    return torch_default_data_collator(features)
+  File "/home/sam/.local/lib/python3.10/site-packages/transformers/data/data_collator.py", line 129, in torch_default_data_collator
+    batch[k] = torch.stack([f[k] for f in features])
+RuntimeError: stack expects each tensor to be equal size, but got [53] at entry 0 and [75] at entry 1
+{'train_runtime': 3936.5979, 'train_samples_per_second': 0.795, 'train_steps_per_second': 0.051, 'train_loss': 0.08812082331627608, 'epoch': 5.0}
