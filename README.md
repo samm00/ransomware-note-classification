@@ -1,10 +1,15 @@
-# Tuning Pre-Trained Neural Text Classifiers to Identify Ransomware Notes
+# All Y0ur Da1a @re 3ncryp1ed: Identifying the Language of Ransomware Notes
 
-### [UNDER CONSTRUCTION]
-Currently merging in updates. The code is all updated, but the paper is in the process of being updated.
-
-### [OLD VERSION]
-This repo houses the code and data for [Tuning Pre-Trained Neural Text Classifiers to Identify Ransomware Notes](Paper.pdf).
+This repo houses the code and data for [All Y0ur Da1a @re 3ncryp1ed: Identifying the Language of Ransomware Notes](Paper.pdf).
 
 #### Abstract
-The ability to identify files on a system that indicate malicious activity is an important technique to maintain system security. Research in this area has focused on the code in the malicious files themselves, but the human language text files that come with certain types of malware (i.e. ransomware) are often overlooked. In this paper, we present a novel method for ransomware note classification, applying natural language processing techniques to the study of malicious activity detection. We present our results which show strong performance by tuning a pre-trained sequence classifier on ransomware notes and other types of benign files, demonstrating accurate identification of ransomware note text.
+Research on malicious activity detection has focused on the code in the malicious files themselves, but the human
+language text files that come with certain types of malware (e.g. ransomware) are often overlooked. We explore and
+address this gap in malicious activity research. The contribution of this paper is demonstrating the viability of using
+neural sequence classifiers to distinguish ransomware notes from other files. We show strong performance by tuning
+on English language ransomware note text and various types of benign files, demonstrating accurate identification
+of ransomware note text. We present an improvement over other methods of malicious text classification, with an
+F1-score of 96.8% on content excerpts, compared to the highest F1-score of 92.0% on filenames in prior work
+(Lemmou et al., 2021). We also revealed some unexpected insights into the characteristics of ransomware notes that,
+to our knowledge, is novel in the published literature. Finally, we have made publicly available the dataset we curated,
+for research purposes.
