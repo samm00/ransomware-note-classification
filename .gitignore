@@ -1,2 +1,5 @@
-raw_data/
+raw_data/prose/all
 ransom/
+ocr.py
+move.py
+ransom_notes/
