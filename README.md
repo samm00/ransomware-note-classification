@@ -2,6 +2,8 @@
 
 This repo houses the code and data for [All Y0ur Da1a @re 3ncryp1ed: Identifying the Language of Ransomware Notes](Paper.pdf).
 
+The paper is currently under review after submission to LREC 2024
+
 #### Abstract
 Research on malicious activity detection has focused on the code in the malicious files themselves, but the human
 language text files that come with certain types of malware (e.g. ransomware) are often overlooked. We explore and
